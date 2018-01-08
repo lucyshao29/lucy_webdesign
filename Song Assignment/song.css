@@ -12,18 +12,20 @@ h3 {
 	font-family: Helvetica;
  	color:rgb(0,31,154);
 }
+
 div {
 	font-family: Helvetica; 
 	font-size: 17px;
-	padding-bottom: 3px;
+	padding-bottom: 5px;
 	text-align:left;
-	color: rgb(95,153,252);
+	color: rgb(177,205,252);
 }
 
 body {
 	animation-name: backgroundchange; 
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+	background-color: rgb(177,205,252);
 }
 
 .dark_blue {
@@ -36,7 +38,7 @@ body {
 }
 
 .pastel_blue {
-	color: rgb(95,153,252);
+	color: rgb(177,205,252);
 }
 
 .text_indent {
@@ -47,23 +49,23 @@ body {
 	text-indent: 70px;
 }
 
-@keyframes color_change {
+@keyframes ab {
 	from {
-		color:rgb(0,60,255)}
+		color:rgb(177,205,252)}
 	to {
-		color:green;}
+		color:rgb(90,145,252)}
 	}
 
-
-.color_change {
-	animation-name: color_change;
-	animation-duration: 5s;
+.ab {
+	animation-name: ab;
+	animation-duration: 1s;
 	animation-fill-mode: forwards;
+	animation-delay: 1s;
 }
 
 @keyframes abc {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(85,140,252)}
 	}
@@ -77,7 +79,7 @@ body {
 
 @keyframes bcd {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(75,130,252)}
 	}
@@ -92,7 +94,7 @@ body {
 
 @keyframes cde {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(65,120,252)}
 	}
@@ -106,7 +108,7 @@ body {
 
 @keyframes def {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(55,110,252)}
 	}
@@ -120,7 +122,7 @@ body {
 
 @keyframes efg {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(45,100,252)}
 	}
@@ -134,7 +136,7 @@ body {
 
 @keyframes fgh {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(35,90,252)}
 	}
@@ -148,7 +150,7 @@ body {
 
 @keyframes ghi {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(25,80,252)}
 	}
@@ -162,7 +164,7 @@ body {
 
 @keyframes hij {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(15,70,252)}
 	}
@@ -176,7 +178,7 @@ body {
 
 @keyframes ijk {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(0,50,250)}
 	}
@@ -190,7 +192,7 @@ body {
 
 @keyframes jkl {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(0,40,240)}
 	}
@@ -204,7 +206,7 @@ body {
 
 @keyframes klm {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(0,30,230)}
 	}
@@ -218,7 +220,7 @@ body {
 
 @keyframes lmn {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(0,20,220)}
 	}
@@ -232,7 +234,7 @@ body {
 
 @keyframes mno {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(0,10,220)}
 	}
@@ -246,7 +248,7 @@ body {
 
 @keyframes nop {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(0,133,154)}
 	}
@@ -260,7 +262,7 @@ body {
 
 @keyframes opq {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(0,154,128)}
 	}
@@ -274,7 +276,7 @@ body {
 
 @keyframes pqr {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(0,154,46)}
 	}
@@ -288,7 +290,7 @@ body {
 
 @keyframes qrs {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(0,165,60)}
 	}
@@ -302,7 +304,7 @@ body {
 
 @keyframes rst {
 	from {
-		color:rgb(95,153,252)}
+		color:rgb(177,205,252)}
 	to {
 		color:rgb(0,175,70)}
 	}
@@ -312,6 +314,76 @@ body {
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
 	animation-delay: 19s;
+}
+
+@keyframes stu {
+	from {
+		color:rgb(177,205,252)}
+	to {
+		color:rgb(0,185,80)}
+	}
+
+.stu {
+	animation-name: stu;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 20s;
+}
+
+@keyframes tuv {
+	from {
+		color:rgb(177,205,252)}
+	to {
+		color:rgb(0,195,90)}
+	}
+
+.tuv {
+	animation-name: tuv;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 21s;
+}
+
+@keyframes uvw {
+	from {
+		color:rgb(177,205,252)}
+	to {
+		color:rgb(0,205,100)}
+	}
+
+.uvw {
+	animation-name: uvw;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 22s;
+}
+
+@keyframes vwx {
+	from {
+		color:rgb(177,205,252)}
+	to {
+		color:rgb(0,215,110)}
+	}
+
+.vwx {
+	animation-name: vwx;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 23s;
+}
+
+@keyframes wxy {
+	from {
+		color:rgb(177,205,252)}
+	to {
+		color:rgb(0,225,120)}
+	}
+
+.wxy {
+	animation-name: wxy;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 24s;
 }
 
 @keyframes backgroundchange {
