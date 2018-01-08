@@ -19,6 +19,7 @@ div {
 	padding-bottom: 5px;
 	text-align:left;
 	color: rgb(177,205,252);
+	margin-right:100px;
 }
 
 body {
@@ -28,8 +29,22 @@ body {
 	background-color: rgb(177,205,252);
 }
 
+.margin {
+	margin-bottom:122px;
+}
+
+.column {
+	float:right;
+	overflow: auto;
+	display: inline-block;
+}
+
 .dark_blue {
 	color: rgb(48,122,252);
+}
+
+.first_stanza {
+	display:flex;
 }
 
 
