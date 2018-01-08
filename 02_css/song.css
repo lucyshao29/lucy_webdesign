@@ -1,1 +1,269 @@
-style.css
+p {
+	border-color:black;
+	line-height: 0em;
+}
+
+h1 {
+	text-align:left;
+}
+
+h3 {
+	text-align:left;
+}
+
+div {
+	font-family: Helvetica;
+	font-size: 17px;
+	padding-bottom: 3px;
+	text-align:left;
+	color: rgb(95,153,252);
+}
+
+body {
+	animation-name: backgroundchange; 
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.column {
+	float:left;
+	width:33.33%;
+}
+
+.dark_blue {
+	color: rgb(48,122,252);
+}
+
+
+.line_indent {
+	word-spacing: 10px;
+}
+
+.pastel_blue {
+	color: rgb(95,153,252);
+}
+
+.row:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.text_indent {
+	text-indent: 35px;
+}
+
+.text_indentx {
+	text-indent: 70px;
+}
+
+@keyframes color_change {
+	from {
+		color:rgb(0,60,255)}
+	to {
+		color:green;}
+	}
+
+
+.color_change {
+	animation-name: color_change;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes abc {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(85,140,252)}
+	}
+
+.abc {
+	animation-name: abc;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+}
+
+@keyframes bcd {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(75,130,252)}
+	}
+
+.bcd {
+	animation-name: bcd;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+}
+
+@keyframes cde {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(65,120,252)}
+	}
+
+.cde {
+	animation-name: cde;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 4s;
+}
+
+@keyframes def {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(55,110,252)}
+	}
+
+.def {
+	animation-name: def;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 5s;
+}
+
+@keyframes efg {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(45,100,252)}
+	}
+
+.efg {
+	animation-name: efg;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 6s;
+}
+
+@keyframes fgh {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(35,90,252)}
+	}
+
+.fgh {
+	animation-name: fgh;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 7s;
+}
+
+@keyframes ghi {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(25,80,252)}
+	}
+
+.ghi {
+	animation-name: ghi;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 8s;
+}
+
+@keyframes hij {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(15,70,252)}
+	}
+
+.hij {
+	animation-name: hij;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 9s;
+}
+
+@keyframes ijk {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(0,50,250)}
+	}
+
+.ijk {
+	animation-name: ijk;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 10s;
+}
+
+@keyframes jkl {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(0,40,240)}
+	}
+
+.jkl {
+	animation-name: jkl;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 11s;
+}
+
+@keyframes klm {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(0,30,230)}
+	}
+
+.klm {
+	animation-name: klm;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 12s;
+}
+
+@keyframes lmn {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(0,20,220)}
+	}
+
+.lmn {
+	animation-name: lmn;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 13s;
+}
+
+@keyframes mno {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(0,10,220)}
+	}
+
+.mno {
+	animation-name: mno;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 14s;
+}
+
+
+@keyframes backgroundchange {
+	0% {
+		background-color:rgb(201,222,255);
+	}
+	
+	50% {
+		background-color:rgb(1,188,81);
+	}
+	100% {
+		background-color:rgb(255,247,0);
+	}
+	}
+
