@@ -4,15 +4,16 @@ p {
 }
 
 h1 {
-	text-align:left;
+	font-family: Helvetica;
+	color:rgb(0,31,154);
 }
 
 h3 {
-	text-align:left;
-}
-
-div {
 	font-family: Helvetica;
+ 	color:rgb(0,31,154);
+}
+div {
+	font-family: Helvetica; 
 	font-size: 17px;
 	padding-bottom: 3px;
 	text-align:left;
@@ -23,11 +24,6 @@ body {
 	animation-name: backgroundchange; 
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-}
-
-.column {
-	float:left;
-	width:33.33%;
 }
 
 .dark_blue {
@@ -41,12 +37,6 @@ body {
 
 .pastel_blue {
 	color: rgb(95,153,252);
-}
-
-.row:after {
-	content:"";
-	display: table;
-	clear: both;
 }
 
 .text_indent {
@@ -97,6 +87,7 @@ body {
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
 	animation-delay: 3s;
+	animation
 }
 
 @keyframes cde {
@@ -253,6 +244,75 @@ body {
 	animation-delay: 14s;
 }
 
+@keyframes nop {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(0,133,154)}
+	}
+
+.nop {
+	animation-name: nop;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 15s;
+}
+
+@keyframes opq {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(0,154,128)}
+	}
+
+.opq {
+	animation-name: opq;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 16s;
+}
+
+@keyframes pqr {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(0,154,46)}
+	}
+
+.pqr {
+	animation-name: pqr;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 17s;
+}
+
+@keyframes qrs {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(0,165,60)}
+	}
+
+.qrs {
+	animation-name: qrs;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 18s;
+}
+
+@keyframes rst {
+	from {
+		color:rgb(95,153,252)}
+	to {
+		color:rgb(0,175,70)}
+	}
+
+.rst {
+	animation-name: rst;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 19s;
+}
 
 @keyframes backgroundchange {
 	0% {
