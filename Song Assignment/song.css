@@ -4,11 +4,13 @@ p {
 }
 
 h1 {
+	text-align: center;
 	font-family: Helvetica;
 	color:rgb(0,31,154);
 }
 
 h3 {
+	text-align: center;
 	font-family: Helvetica;
  	color:rgb(0,31,154);
 }
@@ -33,14 +35,8 @@ body {
 	margin-bottom:122px;
 }
 
-.column {
-	float:right;
-	overflow: auto;
-	display: inline-block;
-}
-
-.dark_blue {
-	color: rgb(48,122,252);
+.chorus {
+	text-align: center;
 }
 
 .first_stanza {
