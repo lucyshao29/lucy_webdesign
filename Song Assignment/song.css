@@ -16,7 +16,7 @@ h3 {
 }
 
 section {
-	margin: 16px 50px;
+	margin: 15px 50px;
 }
 
 div {
@@ -37,6 +37,7 @@ body {
 .body {
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .margin {
@@ -76,9 +77,9 @@ body {
 
 .ab {
 	animation-name: ab;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 1s;
+	animation-delay: 2s;
 }
 
 @keyframes abc {
@@ -90,9 +91,9 @@ body {
 
 .abc {
 	animation-name: abc;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 2s;
+	animation-delay: 4s;
 }
 
 @keyframes bcd {
@@ -104,9 +105,9 @@ body {
 
 .bcd {
 	animation-name: bcd;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 3s;
+	animation-delay: 6s;
 	animation
 }
 
@@ -119,9 +120,9 @@ body {
 
 .cde {
 	animation-name: cde;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 4s;
+	animation-delay: 8s;
 }
 
 @keyframes def {
@@ -133,9 +134,9 @@ body {
 
 .def {
 	animation-name: def;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 5s;
+	animation-delay: 10s;
 }
 
 @keyframes efg {
@@ -147,9 +148,9 @@ body {
 
 .efg {
 	animation-name: efg;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 6s;
+	animation-delay: 12s;
 }
 
 @keyframes fgh {
@@ -161,9 +162,9 @@ body {
 
 .fgh {
 	animation-name: fgh;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 7s;
+	animation-delay: 14s;
 }
 
 @keyframes ghi {
@@ -175,9 +176,9 @@ body {
 
 .ghi {
 	animation-name: ghi;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 8s;
+	animation-delay: 16s;
 }
 
 @keyframes hij {
@@ -189,9 +190,9 @@ body {
 
 .hij {
 	animation-name: hij;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 9s;
+	animation-delay: 18s;
 }
 
 @keyframes ijk {
@@ -203,9 +204,9 @@ body {
 
 .ijk {
 	animation-name: ijk;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 10s;
+	animation-delay: 20s;
 }
 
 @keyframes jkl {
@@ -217,9 +218,9 @@ body {
 
 .jkl {
 	animation-name: jkl;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 11s;
+	animation-delay: 22s;
 }
 
 @keyframes klm {
@@ -231,9 +232,9 @@ body {
 
 .klm {
 	animation-name: klm;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 12s;
+	animation-delay: 24s;
 }
 
 @keyframes lmn {
@@ -245,9 +246,9 @@ body {
 
 .lmn {
 	animation-name: lmn;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 13s;
+	animation-delay: 26s;
 }
 
 @keyframes mno {
@@ -259,9 +260,9 @@ body {
 
 .mno {
 	animation-name: mno;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 14s;
+	animation-delay: 28s;
 }
 
 @keyframes nop {
@@ -273,9 +274,9 @@ body {
 
 .nop {
 	animation-name: nop;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 15s;
+	animation-delay: 30s;
 }
 
 @keyframes opq {
@@ -287,9 +288,9 @@ body {
 
 .opq {
 	animation-name: opq;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 16s;
+	animation-delay: 32s;
 }
 
 @keyframes pqr {
@@ -301,9 +302,9 @@ body {
 
 .pqr {
 	animation-name: pqr;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 17s;
+	animation-delay: 34s;
 }
 
 @keyframes qrs {
@@ -315,9 +316,9 @@ body {
 
 .qrs {
 	animation-name: qrs;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 18s;
+	animation-delay: 36s;
 }
 
 @keyframes rst {
@@ -329,9 +330,9 @@ body {
 
 .rst {
 	animation-name: rst;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 19s;
+	animation-delay: 38s;
 }
 
 @keyframes stu {
@@ -343,9 +344,9 @@ body {
 
 .stu {
 	animation-name: stu;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 20s;
+	animation-delay: 40s;
 }
 
 @keyframes tuv {
@@ -357,9 +358,9 @@ body {
 
 .tuv {
 	animation-name: tuv;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 21s;
+	animation-delay: 42s;
 }
 
 @keyframes uvw {
@@ -371,9 +372,9 @@ body {
 
 .uvw {
 	animation-name: uvw;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 22s;
+	animation-delay: 44s;
 }
 
 @keyframes vwx {
@@ -385,9 +386,9 @@ body {
 
 .vwx {
 	animation-name: vwx;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 23s;
+	animation-delay: 46s;
 }
 
 @keyframes wxy {
@@ -399,9 +400,9 @@ body {
 
 .wxy {
 	animation-name: wxy;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
-	animation-delay: 24s;
+	animation-delay: 48s;
 }
 
 @keyframes xyz {
@@ -413,9 +414,9 @@ body {
 
 .xyz {
 	animation-name: xyz;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 25s;
+	animation-delay: 50s;
 }
 
 @keyframes bc {
@@ -427,9 +428,9 @@ body {
 
 .bc {
 	animation-name: bc;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 27s;
+	animation-delay: 53s;
 }
 
 @keyframes cd {
@@ -441,9 +442,9 @@ body {
 
 .cd {
 	animation-name: cd;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 29s;
+	animation-delay: 56s;
 }
 
 @keyframes de {
@@ -455,9 +456,9 @@ body {
 
 .de {
 	animation-name: de;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 31s;
+	animation-delay: 59s;
 }
 
 @keyframes ef {
@@ -469,9 +470,9 @@ body {
 
 .ef {
 	animation-name: ef;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 33s;
+	animation-delay: 62s;
 }
 
 @keyframes fg {
@@ -483,9 +484,9 @@ body {
 
 .fg {
 	animation-name: fg;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 35s;
+	animation-delay: 65s;
 }
 
 @keyframes gh {
@@ -497,9 +498,9 @@ body {
 
 .gh {
 	animation-name: gh;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 38s;
+	animation-delay: 68s;
 }
 
 @keyframes hi {
@@ -511,9 +512,9 @@ body {
 
 .hi {
 	animation-name: hi;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 40s;
+	animation-delay: 71s;
 }
 
 @keyframes ij {
@@ -525,9 +526,9 @@ body {
 
 .ij {
 	animation-name: ij;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 42s;
+	animation-delay: 74s;
 }
 
 @keyframes jk {
@@ -539,9 +540,9 @@ body {
 
 .jk {
 	animation-name: jk;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 44s;
+	animation-delay: 77s;
 }
 
 @keyframes kl {
@@ -553,9 +554,9 @@ body {
 
 .kl {
 	animation-name: kl;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 46s;
+	animation-delay: 80s;
 }
 
 @keyframes lm {
@@ -567,9 +568,9 @@ body {
 
 .lm {
 	animation-name: lm;
-	animation-duration: 1s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 48s;
+	animation-delay: 83s;
 }
 
 @keyframes mn {
@@ -581,8 +582,8 @@ body {
 
 .mn {
 	animation-name: mn;
-	animation-duration: 1s;
+	animation-duration: 3s;
 	animation-fill-mode: forwards;
-	animation-delay: 49s;
+	animation-delay: 86s;
 }
 
