@@ -1,0 +1,18 @@
+.circle{
+	background: #f4ca16;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.shape{
+	background: #f4ca16;
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+}
+
+section {
+	display:inline-flex;
+	flex-wrap:wrap;
+}
