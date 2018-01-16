@@ -79,3 +79,17 @@ section {
 	font-family: Helvetica;
 }
 
+@keyframes move {
+	from {
+		margin-top:-175px;}
+	to {
+		margin-top:-70px;}
+	}
+
+.move {
+	animation-name: move;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+}
+
