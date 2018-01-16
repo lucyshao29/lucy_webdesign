@@ -93,3 +93,18 @@ section {
 	animation-direction:alternate;
 }
 
+@keyframes move2 {
+	from {
+		margin-left:0px;
+	}
+	to {
+		margin-left:-200px;
+	}
+}
+
+.move2 {
+	animation-name: move2;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
