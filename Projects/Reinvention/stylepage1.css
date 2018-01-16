@@ -1,0 +1,15 @@
+body {
+	font-family:Helvetica;
+	font-size:48px;
+	text-align: center;
+	margin:0;
+	padding:0;
+	background-image: url(backgroundstars.jpg);
+	color:white;
+}
+
+a {
+	align-content:center;
+	color:white;
+	font-size:68px;
+}
