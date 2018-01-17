@@ -18,3 +18,7 @@ a {
 	color:white;
 	font-size:36px;
 }
+
+a:hover {
+	color:rgb(200,200,200);
+}
