@@ -3,7 +3,29 @@ body {
 	margin:0;
 	padding:0;
 	font-family:Helvetica;
+	color:rgb(255,213,0);
+}
+
+div {
+	font-family:Helvetica;
 	color:white;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	z-index:10;
+	margin-top:25px;
+	margin-bottom:-200px;
+	margin-left:430px;
+}
+
+p {
+	margin:0;
+	padding:0;
+	line-height:29px;
+}
+
+section {
+	z-index:0;
 }
 
 .picture {
@@ -11,7 +33,84 @@ body {
 	height:auto;
 }
 
+.blue {
+	color:rgba(60,73,255,1);
+}
+
 img {
 	padding:0;
 	margin:0;
+}
+
+.upsidedown {
+	transform:rotate(180deg);
+	font-family:Helvetica;
+	color:rgb(255,213,0);
+}
+
+@keyframes shine {
+	from {
+		color: rgb(255,213,0);
+	}
+	to {
+		color: white;
+	}
+}
+
+.shine {
+	animation-name: shine;
+	animation-duration: 0.6s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+}
+
+@keyframes shine2 {
+	from {
+		color: rgb(255,213,0);
+	}
+	to {
+		color: white;
+	}
+}
+
+.shine2 {
+	animation-name: shine2;
+	animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	animation-delay:0.5s;
+}
+
+@keyframes shine3 {
+	from {
+		color: rgb(255,213,0);
+	}
+	to {
+		color: white;
+	}
+}
+
+.shine3 {
+	animation-name: shine3;
+	animation-duration: 0.7s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	animation-delay:0.35s;
+}
+
+@keyframes shine4 {
+	from {
+		color: rgb(255,213,0);
+	}
+	to {
+		color: white;
+	}
+}
+
+.shine4 {
+	animation-name: shine4;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	animation-delay:0.8s;
 }
