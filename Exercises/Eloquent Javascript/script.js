@@ -14,17 +14,17 @@ for (var j = 1; j < 101; j++) {
 	else console.log(j);
 }
 
-// checkboard
+// checkerboard
 var size = 8;
 
 var board = "";
 
 for (var k = 0; k < size; k++) {
 	for (var l = 0; l < size; l++) {
-		if((k + l) % 2 == 0) 
-			board += " ";
-		else 
-			board += "#";
+		if((k + l) % 2 == 0) board += " ";
+		else board += "#";
 	}
 	board += "\n";
 }
+
+console.log(board);
