@@ -1,0 +1,96 @@
+h1 {
+	font-family:Helvetica;
+	text-align:center;
+}
+
+.button {
+	height: 100px;
+	width: 200px;
+	border-radius: 15px;
+	background:red;
+}
+
+.button2 {
+	height: 100px;
+	width: 200px;
+	border-radius: 15px;
+	background:red;
+}
+
+.button3 {
+	height: 100px;
+	width: 200px;
+	margin-left: 1000px;
+	margin-top: -300px;
+	border-radius: 15px;
+	background:red;
+}
+
+@keyframes moving {
+	from {
+		margin:0px;
+	}
+
+	to {
+		margin-left:1280px;
+		margin-top:150px;
+	}
+}
+
+.moving {
+	animation-name: moving;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-delay:2s;
+}
+
+@keyframes moving2 {
+	from {
+		margin:0px;
+	}
+
+	to {
+		margin-left:450px;
+		margin-top:200px;
+	}
+}
+
+.moving2 {
+	animation-name: moving2;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-delay:2s;
+}
+
+@keyframes moving3 {
+	from {
+		margin-left: 1000px;
+		margin-top: -300px;
+	}
+
+	to {
+		margin-left:0px;
+		margin-top:0px;
+	}
+}
+
+.moving3 {
+	animation-name: moving3;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-delay:2s;
+}
+
+body {
+	padding:20px;
+	font-family:Helvetica;
+}
+
+p {
+	letter-spacing: .5px;
+}
+
+
