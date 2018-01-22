@@ -18,7 +18,13 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('.circle').mouseenter(function() {
-		$('.circle').css("background","rgba(255,255,255,1)");
+		$(this).css("background","rgba(255,255,255,1)");
+	});
+});
+
+$(document).ready(function() {
+	$('.circle').mouseleave(function() {
+		$(this).css("background","rgba(255,255,255,0.2)");
 	});
 });
 
@@ -27,3 +33,10 @@ $(document).ready(function() {
 		$('.command2').show();
 	});
 });
+
+$(document).ready(function() {
+	$('.8am').click(function() {
+		$('.form').show();
+	});
+});
+
