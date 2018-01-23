@@ -1,12 +1,10 @@
-.circle {
+.circle, .circle2 {
 	height:10px;
 	width:10px;
 	border-radius: 100%;
 	background:rgba(255,255,255,0.2);
-	border-color:red;
-	border-width: 1px;
 	align-items:center;
-	margin-left:10px;
+	align-content:center;
 	box-shadow:1px 1px rgb(119,156,255);
 }
 
@@ -15,6 +13,12 @@
 	width:auto;
 	background: rgba(0,0,0,0)
 }
+
+.choice {
+	display:flex;
+}
+
+
 body {
 	background: rgb(152,180,255);
 }
@@ -27,34 +31,40 @@ section {
 }
 
 p {
-
+	margin top:0;
+	margin-left: 2px;
+	padding:0;
 }
 
-h3, h2, h4{
+a, h1, h3, h2, h4{
 	text-align: center;
 	font-family: Verdana;
 	color: rgb(22,55,145);
 	margin:10px;
+	text-shadow:1px 1px rgb(119,156,255);
 }
 
 h3 {
-	display:none;
+	padding:0;
+	margin:0;
 }
 
-.none, .command, .command2 {
+.command, .command2, .schedule {
 	display:none;
 	text-align:center;
+	align-items: center;
 }
 
 .time {
-	margin-right:-8px;
+	margin-left:0px;
 	font-family: Verdana;
 	font-size: 10px;
 	font-weight: bold;
 	color: rgb(37,77,189);
+	width: 40px;
 }
 
-.form {
+.form, .form1 {
 	font-family: Verdana;
 	font-size: 12px;
 	color: rgb(37,77,189);
@@ -64,4 +74,18 @@ h3 {
 	border-radius:10px;
 	background: rgba(165,189,255,0.7)
 }
+
+.schedule {
+	font-family: Verdana;
+	font-size: 12px;
+	color: rgb(37,77,189);
+	border-radius:10px;
+	background: rgba(165,189,255,0.7)
+	width:400px;
+}
+
+.am9 {
+	display:none;
+}
+
 
