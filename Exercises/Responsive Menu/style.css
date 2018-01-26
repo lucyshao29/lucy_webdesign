@@ -1,0 +1,44 @@
+.topnav {
+	background: blue;
+	overflow:hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.ham {
+	width:30px;
+	height:5px;
+	border-radius: 20px;
+	background:blue;
+	margin:5px;
+}
+
+.icon {
+	display:none;
+}
+
+.dropdown {
+	display:none;
+}
+
+@media screen and (max-width: 480px) {
+	.icon {
+		display:block;
+	}
+	.topnav {
+		display:none;
+	}
+}
