@@ -22,7 +22,7 @@
 
 span {
 	text-align: center;
-	font-family:  'Segoe Print';
+	font-family:'Segoe Print','Neucha', cursive;Neucha', cursive;;
 }
 
 body {
@@ -52,7 +52,7 @@ a {
 
 a, h1, h3, h2, h4{
 	text-align: center;
-	font-family: 'Segoe Print';
+	font-family:'Segoe Print','Neucha', cursive;
 	color: rgb(22,55,145);
 	margin:10px;
 	text-shadow:1px 1px rgb(119,156,255);
@@ -71,7 +71,7 @@ h3 {
 
 .time {
 	margin-left:0px;
-	font-family: 'Segoe Print';
+	font-family:'Segoe Print','Neucha', cursive;
 	font-size: 10px;
 	font-weight: bold;
 	color: rgb(37,77,189);
@@ -79,12 +79,12 @@ h3 {
 }
 
 .form, .form2, .form3, .form4, .form5, .form6, .form7, .form8, .form9, .form10, .form11, .form12, .form13, .form14, .form15, .form16, .form17 {
-	font-family: 'Segoe Print';
+	font-family:'Segoe Print','Neucha', cursive;
 	font-size: 15px;
 	color: rgb(37,77,189);
 	visibility: hidden;
 	box-shadow: 1px 1px rgb(119,156,255);
-	width:300px;
+	width:20%;
 	border-radius:10px;
 	background: rgba(165,189,255,0.7);
 	height:auto;
@@ -93,7 +93,7 @@ h3 {
 }
 
 .schedule {
-	font-family: 'Segoe Print';
+	font-family:'Segoe Print','Neucha', cursive;
 	font-size: 20px;
 	color: rgb(37,77,189);
 	border-radius:10px;
@@ -111,6 +111,11 @@ h3 {
 	align-items: center; 
 }
 
+@media screen and (max-width:480px) {
+	.form, .form2, .form3, .form4, .form5, .form6, .form7, .form8, .form9, .form10, .form11, .form12, .form13, .form14, .form15, .form16, .form17 {
+		width: 300px;
+	}
+}
 
 
 
