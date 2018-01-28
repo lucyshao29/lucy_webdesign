@@ -1,0 +1,42 @@
+body {
+	background:rgb(50,50,50);
+}
+
+h1, h3 {
+	color:rgb(233,233,233);
+	font-family: 'Marck Script', cursive;
+	text-align: center;
+	text-shadow: 3px 3px rgb(30,30,30);
+}
+
+h1 {
+	font-size:60px;
+}
+
+h3 {
+	font-size:50px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.dropdown{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+a{
+	color:rgb(233,233,233);
+	font-family: 'Marck Script', cursive;
+	text-align: center;
+	margin:10px;
+	font-size:30px;
+}
+
+

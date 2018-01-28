@@ -1,0 +1,10 @@
+img {
+	width: auto;
+	height:700px;
+	padding:5px;
+}
+
+section {
+	display:flex;
+	flex-wrap: wrap;
+}

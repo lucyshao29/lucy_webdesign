@@ -22,4 +22,3 @@ function draw() {
 	ellipse(mouseX, mouseY, 80, 80);
 	line(mouseX,mouseY +40,80,300);
 }
-
