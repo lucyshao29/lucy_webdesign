@@ -1,0 +1,60 @@
+div {
+	width:80px;
+	height:80px;
+	background: #ccc;
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+h1, h3, h5 {
+	padding:0;
+	margin:0;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+section {
+	display:flex;
+	justify-content: center;
+}
+
+.phantom {
+	width:1280px;
+	height:80px;
+	background:rgba(0,0,0,0);
+}
+
+.phantom1 {
+	width:800px;
+	height:80px;
+	background:rgba(0,0,0,0);
+}
+
+.phantom2 {
+	width:80px;
+	height:80px;
+	background:rgba(0,0,0,0);
+}
+
+.phantom3 {
+	width:240px;
+	height:80px;
+	background:rgba(0,0,0,0);
+}
+
+.phantom4 {
+	width:720px;
+	height:80px;
+	background:rgba(0,0,0,0);
+}
+
+.phantom5 {
+	width:1120px;
+	height:80px;
+	background:rgba(0,0,0,0);
+}
