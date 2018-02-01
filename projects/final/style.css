@@ -1,6 +1,15 @@
+body {
+	display:grid;
+	grid-template-columns:repeat(10%);
+	grid-template-rows:repeat(14%);
+}
 div {
-	width:80px;
-	height:80px;
+	width:75px;
+	height:75px;
+	border-radius:3px;
+	margin-bottom:3px;
+	margin-right:3px;
+	box-shadow: 3px 3px #BCBCBC;
 	background: #ccc;
 	display:flex;
 	flex-direction: column;
@@ -18,43 +27,95 @@ h3 {
 	font-size: 15px;
 }
 
-section {
+button {
+	width:100px;
+	height:30px;
+	border-radius:5px;
+	background:#ccc;
+	color:#FFF;
+	text-shadow: 3px 3px #BBB;
+	font-family: 'Dosis', sans-serif;
+}
+
+img {
+	position:absolute;
+	z-index:10;
+}
+
+.title{
+	position:absolute;
+	z-index:10;
+}
+
+.period1, .period2, .period3, .period4, .period5, .period6, .period7, .period6ish, .period7ish {
 	display:flex;
 	justify-content: center;
 }
 
 .phantom {
-	width:1280px;
-	height:80px;
+	width:1248px;
+	height:75px;
 	background:rgba(0,0,0,0);
+	box-shadow:3px 0px rgba(0,0,0,0);
 }
 
 .phantom1 {
-	width:800px;
-	height:80px;
+	width:780px;
+	height:75px;
 	background:rgba(0,0,0,0);
+	box-shadow:3px 0px rgba(0,0,0,0);
 }
 
 .phantom2 {
-	width:80px;
-	height:80px;
+	width:78px;
+	height:75px;
 	background:rgba(0,0,0,0);
+	box-shadow:3px 0px rgba(0,0,0,0);
 }
 
 .phantom3 {
-	width:240px;
-	height:80px;
+	width:234px;
+	height:75px;
 	background:rgba(0,0,0,0);
+	box-shadow:3px 0px rgba(0,0,0,0);
 }
 
 .phantom4 {
-	width:720px;
-	height:80px;
+	width:702px;
+	height:75px;
 	background:rgba(0,0,0,0);
+	box-shadow:3px 0px rgba(0,0,0,0);
 }
 
 .phantom5 {
-	width:1120px;
-	height:80px;
+	width:1092px;
+	height:75px;
 	background:rgba(0,0,0,0);
+	box-shadow:3px 0px rgba(0,0,0,0);
 }
+
+.phantom6 {
+	width:546px;
+	height:75px;
+	background:rgba(0,0,0,0);
+	box-shadow:3px 0px rgba(0,0,0,0);
+}
+
+@keyframes radio {
+	from {
+		background:'';
+	}
+	to {
+		background: rgb(111,255,0);
+	}
+}
+
+.radio {
+	animation-name: radio;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	position:static;
+	z-index: 10; 
+}
+

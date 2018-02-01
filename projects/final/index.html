@@ -6,302 +6,1199 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script
-  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-  crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+		integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+		crossorigin="anonymous"></script>
 		<script src="script.js"></script>
 		<title>Periodic Table</title>
+		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 	</head>
 
 	<body>
-		<section class="period1">
-			<div class="gas">
-				<h3>1</h3>
-				<h1>H</h1>
-				<h3>Hydrogen</h3>
-				<h5>1.007</h5>
-			</div>
-			<div class="phantom"></div>
-			<div class="stable">
-				<h3>2</h3>
-				<h1>He</h1>
-				<h3>Helium</h3>
-				<h5>4.00</h5>
-			</div>
+		<section class="w3-bar w3-black">
+  			<button class="w3-bar-item w3-button" onclick="opentab('name')">Name</button>
+ 			<button class="w3-bar-item w3-button" onclick="opentab('mass')">Molar Mass</button>
 		</section>
-		<section class="period2">
-			<div class="explode">
-				<h3>3</h3>
-				<h1>Li</h1>
-				<h3>Lithium</h3>
-				<h5>6.94</h5>
-			</div>
-			<div class="explode">
-				<h3>4</h3>
-				<h1>Be</h1>
-				<h3>Beryllium</h3>
-				<h5>9.01</h5>
-			</div>
-			<div class="phantom1"></div>
-			<div class="metal">
-				<h3>5</h3>
-				<h1>B</h1>
-				<h3>Boron</h3>
-				<h5>10.81</h5>
-			</div>
-			<div class="nothing">
-				<h3>6</h3>
-				<h1>C</h1>
-				<h3>Carbon</h3>
-				<h5>12.01</h5>
-			</div>
-			<div class="gas">
-				<h3>7</h3>
-				<h1>N</h1>
-				<h3>Nitrogen</h3>
-				<h5>14.01</h5>
-			</div>
-			<div class="gas">
-				<h3>8</h3>
-				<h1>O</h1>
-				<h3>Oxygen</h3>
-				<h5>16.00</h5>
-			</div>
-			<div class="explode">
-				<h3>9</h3>
-				<h1>F</h1>
-				<h3>Fluorine</h3>
-				<h5>19.00</h5>
-			</div>
-			<div class="stable">
-				<h3>10</h3>
-				<h1>Ne</h1>
-				<h3>Neon</h3>
-				<h5>20.18</h5>
-			</div>
+		<section id="name" class="tab">
+			<section class="period1">
+				<div>
+					<h3>1</h3>
+					<h1>H</h1>
+					<h3>Hydrogen</h3>
+				</div>
+				<div class="phantom"></div>
+				<div>
+					<h3>2</h3>
+					<h1>He</h1>
+					<h3>Helium</h3>
+				</div>
+			</section>
+			<section class="period2">
+				<div>
+					<h3>3</h3>
+					<h1>Li</h1>
+					<h3>Lithium</h3>
+				</div>
+				<div class="phantom2" style="display:none"></div>
+				<div>
+					<h3>4</h3>
+					<h1>Be</h1>
+					<h3>Beryllium</h3>
+				</div>
+				<div class="phantom1"></div>
+				<div>
+					<h3>5</h3>
+					<h1>B</h1>
+					<h3>Boron</h3>
+				</div>
+				<div>
+					<h3>6</h3>
+					<h1>C</h1>
+					<h3>Carbon</h3>
+				</div>
+				<div>
+					<h3>7</h3>
+					<h1>N</h1>
+					<h3>Nitrogen</h3>
+				</div>
+				<div>
+					<h3>8</h3>
+					<h1>O</h1>
+					<h3>Oxygen</h3>
+				</div>
+				<div>
+					<h3>9</h3>
+					<h1>F</h1>
+					<h3>Fluorine</h3>
+				</div>
+				<div>
+					<h3>10</h3>
+					<h1>Ne</h1>
+					<h3>Neon</h3>
+				</div>
+			</section>
+			<section class="period3">
+				<div>
+					<h3>11</h3>
+					<h1>Na</h1>
+					<h3>Sodium</h3>
+				</div>
+				<div>
+					<h3>12</h3>
+					<h1>Mg</h1>
+					<h3>Magnesium</h3>
+				</div>
+				<div class="phantom1"></div>
+				<div>
+					<h3>13</h3>
+					<h1>Al</h1>
+					<h3>Aluminium</h3>
+				</div>
+				<div>
+					<h3>14</h3>
+					<h1>Si</h1>
+					<h3>Silicon</h3>
+				</div>
+				<div>
+					<h3>15</h3>
+					<h1>P</h1>
+					<h3>Phosphorus</h3>
+				</div>
+				<div>
+					<h3>16</h3>
+					<h1>S</h1>
+					<h3>Sulfur</h3>
+				</div>
+				<div>
+					<h3>17</h3>
+					<h1>Cl</h1>
+					<h3>Chlorine</h3>
+				</div>
+				<div>
+					<h3>18</h3>
+					<h1>Ar</h1>
+					<h3>Argon</h3>
+				</div>
+			</section>
+			<section class="period4">
+				<div>
+					<h3>19</h3>
+					<h1>K</h1>
+					<h3>Potassium</h3>
+				</div>
+				<div>
+					<h3>20</h3>
+					<h1>Ca</h1>
+					<h3>Calcium</h3>
+				</div>
+				<div>
+					<h3>21</h3>
+					<h1>Sc</h1>
+					<h3>Scandium</h3>
+				</div>
+				<div>
+					<h3>22</h3>
+					<h1>Ti</h1>
+					<h3>Titanium</h3>
+				</div>
+				<div>
+					<h3>23</h3>
+					<h1>V</h1>
+					<h3>Vanadium</h3>
+				</div>
+				<div>
+					<h3>24</h3>
+					<h1>Cr</h1>
+					<h3>Chromium</h3>
+				</div>
+				<div>
+					<h3>25</h3>
+					<h1>Mn</h1>
+					<h3>Manganese</h3>
+				</div>
+				<div>
+					<h3>26</h3>
+					<h1>Fe</h1>
+					<h3>Iron</h3>
+				</div>
+				<div>
+					<h3>27</h3>
+					<h1>Co</h1>
+					<h3>Cobalt</h3>
+				</div>
+				<div>
+					<h3>28</h3>
+					<h1>Ni</h1>
+					<h3>Nickel</h3>
+				</div>
+				<div>
+					<h3>29</h3>
+					<h1>Cu</h1>
+					<h3>Copper</h3>
+				</div>
+				<div>
+					<h3>30</h3>
+					<h1>Zn</h1>
+					<h3>Zinc</h3>
+				</div>
+				<div>
+					<h3>31</h3>
+					<h1>Ga</h1>
+					<h3>Gallium</h3>
+				</div>
+				<div>
+					<h3>32</h3>
+					<h1>Ge</h1>
+					<h3>Germanium</h3>
+				</div>
+				<div>
+					<h3>33</h3>
+					<h1>As</h1>
+					<h3>Arsenic</h3>
+				</div>
+				<div>
+					<h3>34</h3>
+					<h1>Se</h1>
+					<h3>Selenium</h3>
+				</div>
+				<div>
+					<h3>35</h3>
+					<h1>Br</h1>
+					<h3>Bromine</h3>
+				</div>
+				<div>
+					<h3>36</h3>
+					<h1>Kr</h1>
+					<h3>Krypton</h3>
+				</div>
+			</section>
+			<section class="period5">
+				<div>
+					<h3>37</h3>
+					<h1>Rb</h1>
+					<h3>Rubidium</h3>
+				</div>
+				<div>
+					<h3>38</h3>
+					<h1>Sr</h1>
+					<h3>Strontium</h3>
+				</div>
+				<div>
+					<h3>39</h3>
+					<h1>Y</h1>
+					<h3>Yttrium</h3>
+				</div>
+				<div>
+					<h3>40</h3>
+					<h1>Zr</h1>
+					<h3>Ziroonium</h3>
+				</div>
+				<div>
+					<h3>41</h3>
+					<h1>Nb</h1>
+					<h3>Niobium</h3>
+				</div>
+				<div>
+					<h3>42</h3>
+					<h1>Mo</h1>
+					<h3 style="font-size:13px;">Molybdenum</h3>
+				</div>
+				<div>
+					<h3>43</h3>
+					<h1>Tc</h1>
+					<h3 style="font-size:13px;">Technetium</h3>
+				</div>
+				<div>
+					<h3>44</h3>
+					<h1>Ru</h1>
+					<h3 style="font-size:13px;">Ruthenium</h3>
+				</div>
+				<div>
+					<h3>45</h3>
+					<h1>Rh</h1>
+					<h3>Rhodium</h3>
+				</div>
+				<div>
+					<h3>46</h3>
+					<h1>Pd</h1>
+					<h3>Palladium</h3>
+				</div>
+				<div>
+					<h3>47</h3>
+					<h1>Ag</h1>
+					<h3>Silver</h3>
+				</div>
+				<div>
+					<h3>48</h3>
+					<h1>Cd</h1>
+					<h3>Cadmium</h3>
+				</div>
+				<div>
+					<h3>49</h3>
+					<h1>In</h1>
+					<h3>Indium</h3>
+				</div>
+				<div>
+					<h3>50</h3>
+					<h1>Sn</h1>
+					<h3>Tin</h3>
+				</div>
+				<div>
+					<h3>51</h3>
+					<h1>Sb</h1>
+					<h3>Antimony</h3>
+				</div>
+				<div>
+					<h3>52</h3>
+					<h1>Te</h1>
+					<h3>Tellurium</h3>
+				</div>
+				<div>
+					<h3>53</h3>
+					<h1>I</h1>
+					<h3>Iodine</h3>
+				</div>
+				<div>
+					<h3>54</h3>
+					<h1>Xe</h1>
+					<h3>Xenon</h3>
+				</div>
+			</section>
+			<section class="period6">
+				<div>
+					<h3>55</h3>
+					<h1>Cs</h1>
+					<h3>Cesium</h3>
+				</div>
+				<div>
+					<h3>56</h3>
+					<h1>Ba</h1>
+					<h3>Barium</h3>
+				</div>
+				<div>
+					<h3>57-71</h3>
+				</div>
+				<div>
+					<h3>72</h3>
+					<h1>Hf</h1>
+					<h3>Hafnium</h3>
+				</div>
+				<div>
+					<h3>73</h3>
+					<h1>Ta</h1>
+					<h3>Tantalum</h3>
+				</div>
+				<div>
+					<h3>74</h3>
+					<h1>W</h1>
+					<h3>Tungsten</h3>
+				</div>
+				<div>
+					<h3>75</h3>
+					<h1>Re</h1>
+					<h3>Rhenium</h3>
+				</div>
+				<div>
+					<h3>76</h3>
+					<h1>Os</h1>
+					<h3>Osmium</h3>
+				</div>
+				<div>
+					<h3>77</h3>
+					<h1>Ir</h1>
+					<h3>Iridium</h3>
+				</div>
+				<div>
+					<h3>78</h3>
+					<h1>Pt</h1>
+					<h3>Platinum</h3>
+				</div>
+				<div>
+					<h3>79</h3>
+					<h1>Au</h1>
+					<h3>Gold</h3>
+				</div>
+				<div>
+					<h3>80</h3>
+					<h1>Hg</h1>
+					<h3>Mercury</h3>
+				</div>
+				<div>
+					<h3>81</h3>
+					<h1>Tl</h1>
+					<h3>Thallium</h3>
+				</div>
+				<div>
+					<h3>82</h3>
+					<h1>Pb</h1>
+					<h3>Lead</h3>
+				</div>
+				<div>
+					<h3>83</h3>
+					<h1>Bi</h1>
+					<h3>Bismuth</h3>
+				</div>
+				<div>
+					<h3>84</h3>
+					<h1>Po</h1>
+					<h3>Polonium</h3>
+				</div>
+				<div>
+					<h3>85</h3>
+					<h1>At</h1>
+					<h3>Astatine</h3>
+				</div>
+				<div>
+					<h3>86</h3>
+					<h1>Rn</h1>
+					<h3>Radon</h3>
+				</div>
+			</section>
+			<section class="period7">
+				<div>
+					<h3>87</h3>
+					<h1>Fr</h1>
+					<h3>Francium</h3>
+				</div>
+				<div>
+					<h3>88</h3>
+					<h1>Ra</h1>
+					<h3>Radium</h3>
+				</div>
+				<div>
+					<h3>89-103</h3>
+				</div>
+				<div>
+					<h3>104</h3>
+					<h1>Rf</h1>
+					<h3 style="font-size:11px;">Rutherfordium</h3>
+				</div>
+				<div>
+					<h3>105</h3>
+					<h1>Db</h1>
+					<h3 style="font-size:13px;">Dubnium</h3>
+				</div>
+				<div>
+					<h3>106</h3>
+					<h1>Sg</h1>
+					<h3 style="font-size:13px;">Seaborgium</h3>
+				</div>
+				<div>
+					<h3>107</h3>
+					<h1>Bh</h1>
+					<h3 style="font-size:13px;">Bohrium</h3>
+				</div>
+				<div>
+					<h3>108</h3>
+					<h1>Hs</h1>
+					<h3 style="font-size:13px;">Hassium</h3>
+				</div>
+				<div>
+					<h3>109</h3>
+					<h1>Mt</h1>
+					<h3 style="font-size:13px;">Meitnerium</h3>
+				</div>
+				<div>
+					<h3>110</h3>
+					<h1>Ds</h1>
+					<h3 style="font-size:11px;">Darmstadtium</h3>
+				</div>
+				<div>
+					<h3>111</h3>
+					<h1>Rg</h1>
+					<h3 style="font-size:11px;">Roentgenium</h3>
+				</div>
+				<div class="phantom6"></div>
+			</section>
+			<section class="period6ish" style="margin-top:10px;">
+				<div class="phantom2"></div>
+				<div class="phantom2"></div>
+				<div>
+					<h3>57</h3>
+					<h1>La</h1>
+					<h3>Lanthanum</h3>
+				</div>
+				<div>
+					<h3>58</h3>
+					<h1>Ce</h1>
+					<h3>Cerium</h3>
+				</div>
+				<div>
+					<h3>59</h3>
+					<h1>Pr</h1>
+					<h3 style="font-size:11px;">Praseodynium</h3>
+				</div>
+				<div>
+					<h3>60</h3>
+					<h1>Nd</h1>
+					<h3 style="font-size:13px;">Neodymium</h3>
+				</div>
+				<div>
+					<h3>61</h3>
+					<h1>Pm</h1>
+					<h3 style="font-size:13px;">Promethium</h3>
+				</div>
+				<div>
+					<h3>62</h3>
+					<h1>Sm</h1>
+					<h3>Samarium</h3>
+				</div>
+				<div>
+					<h3>63</h3>
+					<h1>Eu</h1>
+					<h3>Europium</h3>
+				</div>
+				<div>
+					<h3>64</h3>
+					<h1>Gd</h1>
+					<h3>Gadolinium</h3>
+				</div>
+				<div>
+					<h3>65</h3>
+					<h1>Tb</h1>
+					<h3>Terbium</h3>
+				</div>
+				<div>
+					<h3>66</h3>
+					<h1>Dy</h1>
+					<h3>Dysprosium</h3>
+				</div>
+				<div>
+					<h3>67</h3>
+					<h1>Ho</h1>
+					<h3>Holmium</h3>
+				</div>
+				<div>
+					<h3>68</h3>
+					<h1>Er</h1>
+					<h3>Erbium</h3>
+				</div>
+				<div>
+					<h3>69</h3>
+					<h1>Tm</h1>
+					<h3>Thulium</h3>
+				</div>
+				<div>
+					<h3>70</h3>
+					<h1>Yb</h1>
+					<h3>Ytterbium</h3>
+				</div>
+				<div>
+					<h3>71</h3>
+					<h1>Lu</h1>
+					<h3>Lutetium</h3>
+				</div>
+				<div class="phantom2"></div>
+			</section>
+			<section class="period7ish">
+				<div class="phantom2"></div>
+				<div>
+					<h3>89</h3>
+					<h1>Ac</h1>
+					<h3>Actinium</h3>
+				</div>
+				<div>
+					<h3>90</h3>
+					<h1>Th</h1>
+					<h3>Thorium</h3>
+				</div>
+				<div>
+					<h3>91</h3>
+					<h1>Pa</h1>
+					<h3 style="font-size:13px;">Protactinium</h3>
+				</div>
+				<div>
+					<h3>92</h3>
+					<h1>U</h1>
+					<h3>Uranium</h3>
+				</div>
+				<div>
+					<h3>93</h3>
+					<h1>Np</h1>
+					<h3>Neptunium</h3>
+				</div>
+				<div>
+					<h3>94</h3>
+					<h1>Pu</h1>
+					<h3>Plutonium</h3>
+				</div>
+				<div>
+					<h3>95</h3>
+					<h1>Am</h1>
+					<h3>Americium</h3>
+				</div>
+				<div>
+					<h3>96</h3>
+					<h1>Cm</h1>
+					<h3>Curium</h3>
+				</div>
+				<div>
+					<h3>97</h3>
+					<h1>Bk</h1>
+					<h3>Berkelium</h3>
+				</div>
+				<div>
+					<h3>98</h3>
+					<h1>Cf</h1>
+					<h3 style="font-size:13px;">Californium</h3>
+				</div>
+				<div>
+					<h3>99</h3>
+					<h1>Es</h1>
+					<h3 style="font-size:13px;">Einsteinium</h3>
+				</div>
+				<div>
+					<h3>100</h3>
+					<h1>Fm</h1>
+					<h3>Fermium</h3>
+				</div>
+				<div>
+					<h3>101</h3>
+					<h1>Md</h1>
+					<h3 style="font-size:13px;">Mendelevium</h3>
+				</div>
+				<div>
+					<h3>102</h3>
+					<h1>No</h1>
+					<h3>Nobolium</h3>
+				</div>
+				<div>
+					<h3>103</h3>
+					<h1>Lr</h1>
+					<h3 style="font-size:11px;">Lawrencium</h3>
+				</div>
+			</section>
 		</section>
-		<section class="period3">
-			<div class="explode">
-				<h3>11</h3>
-				<h1>Na</h1>
-				<h3>Sodium</h3>
-				<h5>22.99</h5>
-			</div>
-			<div class="explode">
-				<h3>12</h3>
-				<h1>Mg</h1>
-				<h3>Magnesium</h3>
-				<h5>24.31</h5>
-			</div>
-			<div class="phantom1"></div>
-			<div class="metal">
-				<h3>13</h3>
-				<h1>Al</h1>
-				<h3>Aluminium</h3>
-				<h5>26.98</h5>
-			</div>
-			<div class="metal">
-				<h3>14</h3>
-				<h1>Si</h1>
-				<h3>Silicon</h3>
-				<h5>28.09</h5>
-			</div>
-			<div class="nothing">
-				<h3>15</h3>
-				<h1>P</h1>
-				<h3>Phosphorus</h3>
-				<h5>30.97</h5>
-			</div>
-			<div class="nothing">
-				<h3>16</h3>
-				<h1>S</h1>
-				<h3>Sulfur</h3>
-				<h5>32.06</h5>
-			</div>
-			<div class="explode">
-				<h3>17</h3>
-				<h1>Cl</h1>
-				<h3>Chlorine</h3>
-				<h5>35.45</h5>
-			</div>
-			<div class="stable">
-				<h3>18</h3>
-				<h1>Ar</h1>
-				<h3>Argon</h3>
-				<h5>39.95</h5>
-			</div>
+		<section id="mass" class="tab" style="display:none">
+			<section class="period1">
+				<div>
+					<h3>1</h3>
+					<h1>H</h1>
+					<h5 class="number">1.007</h5>
+				</div>
+				<div class="phantom"></div>
+				<div>
+					<h3>2</h3>
+					<h1>He</h1>
+					<h5 class="number">4.00</h5>
+				</div>
+			</section>
+			<section class="period2">
+				<div>
+					<h3>3</h3>
+					<h1>Li</h1>
+					<h5 class="number">6.94</h5>
+				</div>
+				<div class="phantom2" style="display:none"></div>
+				<div>
+					<h3>4</h3>
+					<h1>Be</h1>
+					<h5 class="number">9.01</h5>
+				</div>
+				<div class="phantom1"></div>
+				<div>
+					<h3>5</h3>
+					<h1>B</h1>
+					<h5 class="number">10.81</h5>
+				</div>
+				<div>
+					<h3>6</h3>
+					<h1>C</h1>
+					<h5 class="number">12.01</h5>
+				</div>
+				<div>
+					<h3>7</h3>
+					<h1>N</h1>
+					<h5 class="number">14.01</h5>
+				</div>
+				<div>
+					<h3>8</h3>
+					<h1>O</h1>
+					<h5 class="number">16.00</h5>
+				</div>
+				<div>
+					<h3>9</h3>
+					<h1>F</h1>
+					<h5 class="number">19.00</h5>
+				</div>
+				<div>
+					<h3>10</h3>
+					<h1>Ne</h1>
+					<h5 class="number">20.18</h5>
+				</div>
+			</section>
+			<section class="period3">
+				<div>
+					<h3>11</h3>
+					<h1>Na</h1>
+					<h5 class="number">22.99</h5>
+				</div>
+				<div>
+					<h3>12</h3>
+					<h1>Mg</h1>
+					<h5 class="number">24.31</h5>
+				</div>
+				<div class="phantom1"></div>
+				<div>
+					<h3>13</h3>
+					<h1>Al</h1>
+					<h5 class="number">26.98</h5>
+				</div>
+				<div>
+					<h3>14</h3>
+					<h1>Si</h1>
+					<h5 class="number">28.09</h5>
+				</div>
+				<div>
+					<h3>15</h3>
+					<h1>P</h1>
+					<h5 class="number">30.97</h5>
+				</div>
+				<div>
+					<h3>16</h3>
+					<h1>S</h1>
+					<h5 class="number">32.06</h5>
+				</div>
+				<div>
+					<h3>17</h3>
+					<h1>Cl</h1>
+					<h5 class="number">35.45</h5>
+				</div>
+				<div>
+					<h3>18</h3>
+					<h1>Ar</h1>
+					<h5 class="number">39.95</h5>
+				</div>
+			</section>
+			<section class="period4">
+				<div>
+					<h3>19</h3>
+					<h1>K</h1>
+					<h5 class="number">39.10</h5>
+				</div>
+				<div>
+					<h3>20</h3>
+					<h1>Ca</h1>
+					<h5 class="number">40.08</h5>
+				</div>
+				<div>
+					<h3>21</h3>
+					<h1>Sc</h1>
+					<h5 class="number">44.96</h5>
+				</div>
+				<div>
+					<h3>22</h3>
+					<h1>Ti</h1>
+					<h5 class="number">47.87</h5>
+				</div>
+				<div>
+					<h3>23</h3>
+					<h1>V</h1>
+					<h5 class="number">50.94</h5>
+				</div>
+				<div>
+					<h3>24</h3>
+					<h1>Cr</h1>
+					<h5 class="number">52.00</h5>
+				</div>
+				<div>
+					<h3>25</h3>
+					<h1>Mn</h1>
+					<h5 class="number">54.94</h5>
+				</div>
+				<div>
+					<h3>26</h3>
+					<h1>Fe</h1>
+					<h5 class="number">55.85</h5>
+				</div>
+				<div>
+					<h3>27</h3>
+					<h1>Co</h1>
+					<h5 class="number">58.93</h5>
+				</div>
+				<div>
+					<h3>28</h3>
+					<h1>Ni</h1>
+					<h5 class="number">58.69</h5>
+				</div>
+				<div>
+					<h3>29</h3>
+					<h1>Cu</h1>
+					<h5 class="number">63.55</h5>
+				</div>
+				<div>
+					<h3>30</h3>
+					<h3>Zinc</h3>
+					<h5 class="number">65.38</h5>
+				</div>
+				<div>
+					<h3>31</h3>
+					<h1>Ga</h1>
+				<h5 class="number">69.72</h5>
+				</div>
+				<div>
+					<h3>32</h3>
+					<h1>Ge</h1>
+					<h5 class="number">72.61</h5>
+				</div>
+				<div>
+					<h3>33</h3>
+					<h1>As</h1>
+					<h5 class="number">74.92</h5>
+				</div>
+				<div>
+					<h3>34</h3>
+					<h1>Se</h1>
+					<h5 class="number">78.96</h5>
+				</div>
+				<div>
+					<h3>35</h3>
+					<h1>Br</h1>
+					<h5 class="number">79.90</h5>
+				</div>
+				<div>
+					<h3>36</h3>
+					<h1>Kr</h1>
+					<h5 class="number">83.80</h5>
+				</div>
+			</section>
+			<section class="period5">
+				<div>
+					<h3>37</h3>
+					<h1>Rb</h1>
+					<h5 class="number">85.47</h5>
+				</div>
+				<div>
+					<h3>38</h3>
+					<h1>Sr</h1>
+					<h5 class="number">87.62</h5>
+				</div>
+				<div>
+					<h3>39</h3>
+					<h1>Y</h1>
+					<h5 class="number">88.91</h5>
+				</div>
+				<div>
+					<h3>40</h3>
+					<h1>Zr</h1>
+					<h5 class="number">91.22</h5>
+				</div>
+				<div>
+					<h3>41</h3>
+					<h1>Nb</h1>
+					<h5 class="number">92.91</h5>
+				</div>
+				<div>
+					<h3>42</h3>
+					<h1>Mo</h1>
+					<h5 class="number">95.96</h5>
+				</div>
+				<div>
+					<h3>43</h3>
+					<h1>Tc</h1>
+					<h5 class="number">(98)</h5>
+				</div>
+				<div>
+					<h3>44</h3>
+					<h1>Ru</h1>
+					<h5 class="number">101.07</h5>
+				</div>
+				<div>
+					<h3>45</h3>
+					<h1>Rh</h1>
+					<h5 class="number">102.91</h5>
+				</div>
+				<div>
+					<h3>46</h3>
+					<h1>Pd</h1>
+					<h5 class="number">106.42</h5>
+				</div>
+				<div>
+					<h3>47</h3>
+					<h1>Ag</h1>
+					<h5 class="number">107.87</h5>
+				</div>
+				<div>
+					<h3>48</h3>
+					<h1>Cd</h1>
+					<h5 class="number">112.41</h5>
+				</div>
+				<div>
+					<h3>49</h3>
+					<h1>In</h1>
+					<h5 class="number">114.82</h5>
+				</div>
+				<div>
+					<h3>50</h3>
+					<h1>Sn</h1>
+					<h5 class="number">118.71</h5>
+				</div>
+				<div>
+					<h3>51</h3>
+					<h1>Sb</h1>
+					<h5 class="number">121.76</h5>
+				</div>
+				<div>
+					<h3>52</h3>
+					<h1>Te</h1>
+					<h5 class="number">127.60</h5>
+				</div>
+				<div>
+					<h3>53</h3>
+					<h1>I</h1>
+					<h5 class="number">126.90</h5>
+				</div>
+				<div>
+					<h3>54</h3>
+					<h1>Xe</h1>
+					<h5 class="number">131.29</h5>
+				</div>
+			</section>
+			<section class="period6">
+				<div>
+					<h3>55</h3>
+					<h1>Cs</h1>
+					<h5 class="number">132.91</h5>
+				</div>
+				<div>
+					<h3>56</h3>
+					<h1>Ba</h1>
+					<h5 class="number">137.33</h5>
+				</div>
+				<div>
+					<h3>57-71</h3>
+				</div>
+				<div>
+					<h3>72</h3>
+					<h1>Hf</h1>
+					<h5 class="number">178.49</h5>
+				</div>
+				<div>
+					<h3>73</h3>
+					<h1>Ta</h1>
+					<h5 class="number">180.95</h5>
+				</div>
+				<div>
+					<h3>74</h3>
+					<h1>W</h1>
+					<h5 class="number">183.84</h5>
+				</div>
+				<div>
+					<h3>75</h3>
+					<h1>Re</h1>
+					<h5 class="number">186.21</h5>
+				</div>
+				<div>
+					<h3>76</h3>
+					<h1>Os</h1>
+					<h5 class="number">190.23</h5>
+				</div>
+				<div>
+					<h3>77</h3>
+					<h1>Ir</h1>
+					<h5 class="number">192.22</h5>
+				</div>
+				<div>
+					<h3>78</h3>
+					<h1>Pt</h1>
+					<h5 class="number">195.08</h5>
+				</div>
+				<div>
+					<h3>79</h3>
+					<h1>Au</h1>
+					<h5 class="number">196.97</h5>
+				</div>
+				<div>
+					<h3>80</h3>
+					<h1>Hg</h1>
+					<h5 class="number">200.59</h5>
+				</div>
+				<div>
+					<h3>81</h3>
+					<h1>Tl</h1>
+					<h5 class="number">204.38</h5>
+				</div>
+				<div>
+					<h3>82</h3>
+					<h1>Pb</h1>
+					<h5 class="number">207.2</h5>
+				</div>
+				<div>
+					<h3>83</h3>
+					<h1>Bi</h1>
+					<h5 class="number">208.98</h5>
+				</div>
+				<div>
+					<h3>84</h3>
+					<h1>Po</h1>
+					<h5 class="number">(209)</h5>
+				</div>
+				<div>
+					<h3>85</h3>
+					<h1>At</h1>
+					<h5 class="number">(210)</h5>
+				</div>
+				<div>
+					<h3>86</h3>
+					<h1>Rn</h1>
+					<h5 class="number">(222)</h5>
+				</div>
+			</section>
+			<section class="period7">
+				<div>
+					<h3>87</h3>
+					<h1>Fr</h1>
+					<h5 class="number">(223)</h5>
+				</div>
+				<div>
+					<h3>88</h3>
+					<h1>Ra</h1>
+					<h5 class="number">(226)</h5>
+				</div>
+				<div>
+					<h3>89-103</h3>
+				</div>
+				<div>
+					<h3>104</h3>
+					<h1>Rf</h1>
+					<h5 class="number">(261)</h5>
+				</div>
+				<div>
+					<h3>105</h3>
+					<h1>Db</h1>
+					<h5 class="number">(262)</h5>
+				</div>
+				<div>
+					<h3>106</h3>
+					<h1>Sg</h1>
+					<h5 class="number">(266)</h5>
+				</div>
+				<div>
+					<h3>107</h3>
+					<h1>Bh</h1>
+					<h5 class="number">(264)</h5>
+				</div>
+				<div>
+					<h3>108</h3>
+					<h1>Hs</h1>
+					<h5 class="number">(277)</h5>
+				</div>
+				<div>
+					<h3>109</h3>
+					<h1>Mt</h1>
+					<h5 class="number">(268)</h5>
+				</div>
+				<div>
+					<h3>110</h3>
+					<h1>Ds</h1>
+					<h5 class="number">(271)</h5>
+				</div>
+				<div>
+					<h3>111</h3>
+					<h1>Rg</h1>
+					<h5 class="number">(272)</h5>
+				</div>
+				<div class="phantom6"></div>
+			</section>
+			<section class="period6ish" style="margin-top:10px;">
+				<div class="phantom2"></div>
+				<div class="phantom2"></div>
+				<div>
+					<h3>57</h3>
+					<h1>La</h1>
+					<h5 class="number">138.91</h5>
+				</div>
+				<div>
+					<h3>58</h3>
+					<h1>Ce</h1>
+					<h5 class="number">140.116</h5>
+				</div>
+				<div>
+					<h3>59</h3>
+					<h1>Pr</h1>
+					<h5 class="number">140.91</h5>
+				</div>
+				<div>
+					<h3>60</h3>
+					<h1>Nd</h1>
+					<h5 class="number">!44.24</h5>
+				</div>
+				<div>
+					<h3>61</h3>
+					<h1>Pm</h1>
+					<h5 class="number">(145)</h5>
+				</div>
+				<div>
+					<h3>62</h3>
+					<h1>Sm</h1>
+					<h5 class="number">150.36</h5>
+				</div>
+				<div>
+					<h3>63</h3>
+					<h1>Eu</h1>
+					<h5 class="number">151.96</h5>
+				</div>
+				<div>
+					<h3>64</h3>
+					<h1>Gd</h1>
+					<h5 class="number">157.25</h5>
+				</div>
+				<div>
+					<h3>65</h3>
+					<h1>Tb</h1>
+					<h5 class="number">158.93</h5>
+				</div>
+				<div>
+					<h3>66</h3>
+					<h1>Dy</h1>
+					<h5 class="number">162.50</h5>
+				</div>
+				<div>
+					<h3>67</h3>
+					<h1>Ho</h1>
+					<h5 class="number">164.93</h5>
+				</div>
+				<div>
+					<h3>68</h3>
+					<h1>Er</h1>
+					<h5 class="number">167.26</h5>
+				</div>
+				<div>
+					<h3>69</h3>
+					<h1>Tm</h1>
+					<h5 class="number">168.93</h5>
+				</div>
+				<div>
+					<h3>70</h3>
+					<h1>Yb</h1>
+					<h5 class="number">173.05</h5>
+				</div>
+				<div>
+					<h3>71</h3>
+					<h1>Lu</h1>
+					<h5 class="number">174.97</h5>
+				</div>
+				<div class="phantom2"></div>
+			</section>
+			<section class="period7ish">
+				<div class="phantom2"></div>
+				<div>
+					<h3>89</h3>
+					<h1>Ac</h1>
+					<h5 class="number">(227)</h5>
+				</div>
+				<div>
+					<h3>90</h3>
+					<h1>Th</h1>
+					<h5 class="number">232.04</h5>
+				</div>
+				<div>
+					<h3>91</h3>
+					<h1>Pa</h1>
+					<h5 class="number">231.04</h5>
+				</div>
+				<div>
+					<h3>92</h3>
+					<h1>U</h1>
+					<h5 class="number">238.03</h5>
+				</div>
+				<div>
+					<h3>93</h3>
+					<h1>Np</h1>
+					<h5 class="number">(237)</h5>
+				</div>
+				<div>
+					<h3>94</h3>
+					<h1>Pu</h1>
+					<h5 class="number">(244)</h5>
+				</div>
+				<div>
+					<h3>95</h3>
+					<h1>Am</h1>
+					<h5 class="number">(243)</h5>
+				</div>
+				<div>
+					<h3>96</h3>
+					<h1>Cm</h1>
+					<h5 class="number">(247)</h5>
+				</div>
+				<div>
+					<h3>97</h3>
+					<h1>Bk</h1>
+					<h5 class="number">(247)</h5>
+				</div>
+				<div>
+					<h3>98</h3>
+					<h1>Cf</h1>
+					<h5 class="number">(251)</h5>
+				</div>
+				<div>
+					<h3>99</h3>
+					<h1>Es</h1>
+					<h5 class="number">(252)</h5>
+				</div>
+				<div>
+					<h3>100</h3>
+					<h1>Fm</h1>
+					<h5 class="number">(257)</h5>
+				</div>
+				<div>
+					<h3>101</h3>
+					<h1>Md</h1>
+					<h5 class="number">(258)</h5>
+				</div>
+				<div>
+					<h3>102</h3>
+					<h1>No</h1>
+					<h5 class="number">(259)</h5>
+				</div>
+				<div>
+					<h3>103</h3>
+					<h1>Lr</h1>
+					<h5 class="number">(262)</h5>
+				</div>
+			</section>
 		</section>
-		<section class="period4">
-			<div class="explode">
-				<h3>19</h3>
-				<h1>K</h1>
-				<h3>Potassium</h3>
-				<h5>39.10</h5>
-			</div>
-			<div class="explode">
-				<h3>20</h3>
-				<h1>Ca</h1>
-				<h3>Calcium</h3>
-				<h5>40.08</h5>
-			</div>
-			<div class="phantom2"></div>
-			<div class="metal">
-				<h3>22</h3>
-				<h1>Ti</h1>
-				<h3>Titanium</h3>
-				<h5>47.87</h5>
-			</div>
-			<div class="phantom2"></div>
-			<div class="metal">
-				<h3>24</h3>
-				<h1>Cr</h1>
-				<h3>Chromium</h3>
-				<h5>52.00</h5>
-			</div>
-			<div class="metal">
-				<h3>25</h3>
-				<h1>Mn</h1>
-				<h3>Manganese</h3>
-				<h5>54.94</h5>
-			</div>
-			<div class="metal">
-				<h3>26</h3>
-				<h1>Fe</h1>
-				<h3>Iron</h3>
-				<h5>55.85</h5>
-			</div>
-			<div class="metal">
-				<h3>27</h3>
-				<h1>Co</h1>
-				<h3>Cobalt</h3>
-				<h5>58.93</h5>
-			</div>
-			<div class="metal">
-				<h3>28</h3>
-				<h1>Ni</h1>
-				<h3>Nickel</h3>
-				<h5>58.69</h5>
-			</div>
-			<div class="metal">
-				<h3>29</h3>
-				<h1>Cu</h1>
-				<h3>Copper</h3>
-				<h5>63.55</h5>
-			</div>
-			<div class="metal">
-				<h3>30</h3>
-				<h1>Zn</h1>
-				<h3>Zinc</h3>
-				<h5>65.38</h5>
-			</div>
-			<div class="phantom3"></div>
-			<div class="nothing">
-				<h3>34</h3>
-				<h1>Se</h1>
-				<h3>Selenium</h3>
-				<h5>78.96</h5>
-			</div>
-			<div class="explode">
-				<h3>35</h3>
-				<h1>Br</h1>
-				<h3>Bromine</h3>
-				<h5>79.90</h5>
-			</div>
-			<div class="stable">
-				<h3>36</h3>
-				<h1>Kr</h1>
-				<h3>Krypton</h3>
-				<h5>83.80</h5>
-			</div>
-		</section>
-		<section class="period5">
-			<div class="phantom1"></div>
-			<div class="metal">
-				<h3>47</h3>
-				<h1>Ag</h1>
-				<h3>Silver</h3>
-				<h5>107.87</h5>
-			</div>
-			<div class="phantom2"></div>
-			<div class="phantom2"></div>
-			<div class="metal">
-				<h3>50</h3>
-				<h1>Sn</h1>
-				<h3>Tin</h3>
-				<h5>118.71</h5>
-			</div>
-			<div class="phantom2"></div>
-			<div class="phantom2"></div>
-			<div class="nothing">
-				<h3>53</h3>
-				<h1>I</h1>
-				<h3>Iodine</h3>
-				<h5>126.90</h5>
-			</div>
-			<div class="stable">
-				<h3>54</h3>
-				<h1>Xe</h1>
-				<h3>Xenon</h3>
-				<h5>131.29</h5>
-			</div>
-		</section>
-		<section class="period6">
-			<div class="phantom4"></div>
-			<div class="metal">
-				<h3>78</h3>
-				<h1>Pt</h1>
-				<h3>Platinum</h3>
-				<h5>195.08</h5>
-			</div>
-			<div class="metal">
-				<h3>79</h3>
-				<h1>Au</h1>
-				<h3>Gold</h3>
-				<h5>196.97</h5>
-			</div>
-			<div class="metal">
-				<h3>80</h3>
-				<h1>Hg</h1>
-				<h3>Mercury</h3>
-				<h5>200.59</h5>
-			</div>
-			<div class="phantom2"></div>
-			<div class="metal">
-				<h3>82</h3>
-				<h1>Pb</h1>
-				<h3>Lead</h3>
-				<h5>207.2</h5>
-			</div>
-			<div class="phantom3"></div>
-			<div class="radio">
-				<h3>86</h3>
-				<h1>Rn</h1>
-				<h3>Radon</h3>
-				<h5>[222]</h5>
-			</div>
-		</section>
-		<section class="period7">
-			<div class="phantom2"></div>
-			<div class="radio">
-				<h3>88</h3>
-				<h1>Ra</h1>
-				<h3>Radium</h3>
-				<h5>[226]</h5>
-			</div>
-			<div class="phantom"></div>
-		</section>
-		<section class="period7ish">
-			<div class="phantom2"></div>
-			<div class="phantom2"></div>
-			<div class="phantom2"></div>
-			<div class="radio">
-				<h3>92</h3>
-				<h1>U</h1>
-				<h3>Uranium</h3>
-				<h5>238.03</h5>
-			</div>
-			<div class="phantom5"></div>
-		</section>
+		<img src="image/flask.png">
 	</body>
 </html>
