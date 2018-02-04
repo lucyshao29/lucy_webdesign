@@ -1,56 +1,8 @@
-a {
-	width:125px;
-	height:40px;
-	border-radius:5px;
-	background:#ccc;
-	color:#FFF;
-	font-family: 'Dosis', sans-serif;
-}
-
 body {
 	display:grid;
 	grid-template-columns:repeat(10%);
 	grid-template-rows:repeat(14%);
 }
-
-h1, h3, h4, h5 {
-	padding:0;
-	margin:0;
-}
-
-h3 {
-	font-size: 15px;
-}
-
-p{
-	padding:10px;
-	margin:0px;
-	width:500px;
-}
-
-img {
-	margin:0;
-	padding:0;
-}
-
-.click {
-	display:none;
-}
-
-.dialog {
-	width: 900px;
-	margin-top:3px;
-}
-
-.dialogue {
-	height:550;
-	width:950;
-	display:flex;
-	align-items: center;
-	align-content: center;
-	flex-direction: column;
-}
-
 .element {
 	width:75px;
 	height:75px;
@@ -66,25 +18,34 @@ img {
 	align-items: center;
 }
 
-.flask, .click {
+h1, h3, h5 {
+	padding:0;
+	margin:0;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+button {
+	width:100px;
+	height:25px;
+	border-radius:5px;
+	background:#ccc;
+	color:#FFF;
+	text-shadow: 3px 3px #BBB;
+	font-family: 'Dosis', sans-serif;
+}
+
+img {
 	position:absolute;
 	z-index: 1;
 	margin-top:-160px;
 	margin-left:30px;
 }
 
-.images {
-	display: flex;
-	justify-content: center;
-	align-items: center
-}
-
-.paragraph {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	margin-top:-650px;
-	margin-left:-140px;
+.click {
+	display:none;
 }
 
 .period1, .period2, .period3, .period4, .period5, .period6, .period7, .period6ish, .period7ish {
@@ -92,7 +53,6 @@ img {
 	justify-content: center;
 }
 
-/*empty spaces start*/
 .phantom {
 	width:1248px;
 	height:75px;
@@ -141,11 +101,6 @@ img {
 	background:rgba(0,0,0,0);
 	box-shadow:3px 0px rgba(0,0,0,0);
 }
-/*empty spaces end*/
-
-.property {
-	margin-top:100px;
-}
 
 @keyframes radio {
 	from {
@@ -164,22 +119,5 @@ img {
 	position:static;
 	z-index: 10; 
 }
-
-#dialog {
-	border-radius: 5px;
-	box-shadow: 3px 3px #AAA;
-    background: #BCBCBC;
-    display:none;
-}
-
-/*groups*/
-/*g1=alkali metals
-  g2=alkaline earth metals
-  g3=transition metals
-  g4=lanthanoids
-  g5=actinoids
-  g16=chalcogens
-  g17=halogens
-  g18=noble gases*/
 
 
