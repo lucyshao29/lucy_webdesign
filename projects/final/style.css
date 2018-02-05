@@ -22,6 +22,15 @@ h3 {
 	font-size: 15px;
 }
 
+h4 {
+	display:none;
+	font-size:12px;
+}
+
+h5 {
+	font-size: 11px;
+}
+
 p{
 	padding:10px;
 	margin:0px;
@@ -33,8 +42,51 @@ img {
 	padding:0;
 }
 
+.bluepurplebp {
+	width:75px;
+	height:75px;
+	border-radius:3px;
+	margin-bottom:3px;
+	margin-right:3px;
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+	to right, 
+		rgb(0,60,255) 0%, 
+		rgb(0,60,255) 50%, 
+		rgb(121,0,213) 50%, 
+		rgb(121,0,213) 100%
+	);
+	box-shadow: 3px 3px rgb(92,0,162);
+}
+
+
 .click {
 	display:none;
+}
+
+.colorlessbluecb{
+	width:75px;
+	height:75px;
+	border-radius:3px;
+	margin-bottom:3px;
+	margin-right:3px;
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+	to right, 
+		rgba(0,0,0,0) 0%, 
+		rgba(0,0,0,0) 50%, 
+		rgb(0,60,255) 50%, 
+		rgb(0,60,255) 100%
+	);
+	box-shadow: 3px 3px rgb(0,51,215);
 }
 
 .dialog {
@@ -71,6 +123,27 @@ img {
 	z-index: 1;
 	margin-top:-160px;
 	margin-left:30px;
+}
+
+.greenyellowgy{
+	width:75px;
+	height:75px;
+	border-radius:3px;
+	margin-bottom:3px;
+	margin-right:3px;
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+	to right, 
+		rgb(30,223,0) 0%, 
+		rgb(30,223,0) 50%, 
+		rgb(255,247,0) 50%, 
+		rgb(255,247,0) 100%
+	);
+	box-shadow: 3px 3px rgb(245,228,0);
 }
 
 .images {
@@ -165,11 +238,34 @@ img {
 	z-index: 10; 
 }
 
+@keyframes liquid {
+	0% {
+		border-radius:3px;
+	}
+	50% {
+		border-radius:100%;
+	}
+	100% {
+		border-radius:3px;
+	}
+}
+
+#liquid, #liquid1 {
+	animation-name: liquid;
+	animation-play-state: paused;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
 #dialog {
 	border-radius: 5px;
 	box-shadow: 3px 3px #AAA;
     background: #BCBCBC;
     display:none;
+}
+
+#ion {
+	display:none;
 }
 
 /*groups*/
