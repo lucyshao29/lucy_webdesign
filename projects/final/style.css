@@ -160,7 +160,7 @@ img {
 	margin-left:-140px;
 }
 
-.period1, .period2, .period3, .period4, .period5, .period6, .period7, .period6ish, .period7ish {
+.period1, .period2, .period3, .period4, .period5, .period6, .period7, .period6ish, .period7ish, .os, .p {
 	display:flex;
 	justify-content: center;
 }
@@ -255,6 +255,26 @@ img {
 	animation-play-state: paused;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
+}
+
+@keyframes dblock {
+	from {
+		margin-top:"";
+		background:"";
+		color:"";
+	}
+	to {
+		margin-top:-78px;
+		background:rgba(204,204,204,0.5);
+		color:rgba(0,0,0,0.5);
+	}
+}
+
+.dblock {
+	animation-name: dblock;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-direction: alternate;
 }
 
 #dialog {

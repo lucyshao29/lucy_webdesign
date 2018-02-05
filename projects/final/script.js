@@ -309,6 +309,15 @@ $(document).ready(function() {
 	});
 });
 
+$(document).ready(function() {
+	$('.dblock').mouseenter(function() {
+		$('.dblock').css('animation-play-state','paused');
+	});
+	$('.dblock').mouseleave(function() {
+		$('.dblock').css('animation-play-state','running');
+	});
+});
+
 
 // $(document).ready(function() {
 // 	$('.explode').mouseenter(function() {
