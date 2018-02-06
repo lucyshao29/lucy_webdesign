@@ -265,6 +265,18 @@ $(document).ready(function(){
 	$('.dblock').mouseleave(function() {
 		$('.dblock').css('animation-play-state','running');
 	});
+	$('h5').mouseenter(function() {
+		$(this).css('font-size','15px');
+	});
+	$('h5').mouseleave(function() {
+		$(this).css('font-size','');
+	});
+	$('.special').mouseenter(function() {
+		$(this).css('font-size','15px');
+	});
+	$('.special').mouseleave(function() {
+		$(this).css('font-size','8px');
+	});
 });
 
 
