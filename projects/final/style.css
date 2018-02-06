@@ -12,7 +12,6 @@ a {
 
 body {
 	background: rgba(255,224,98,0.9);
-	overflow-x: scroll;
 	min-width: 1400px;
 }
 
@@ -360,7 +359,7 @@ img {
 }
 
 .warning {
-	display:hide;
+	display:none;
 	margin-top:150px;
 	font-size: 45px;
 	width:1000px;
