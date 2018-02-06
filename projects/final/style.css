@@ -1,21 +1,29 @@
 a {
-	width:125px;
-	height:40px;
+	width:auto;
+	height:20px;
 	border-radius:5px;
-	background:#ccc;
-	color:#FFF;
+	box-shadow: 2px 2px rgb(255,189,55);
+	background: rgb(255,206,105);
+	color:rgb(198,66,3);
 	font-family: 'Dosis', sans-serif;
+	padding: 0px 3px;
+	margin-right:3px;
 }
 
 body {
-	display:grid;
-	grid-template-columns:repeat(10%);
-	grid-template-rows:repeat(14%);
+	background: rgba(255,224,98,0.9);
+}
+
+h2{
+	color:rgb(0,68,255);
 }
 
 h1, h3, h4, h5 {
 	padding:0;
 	margin:0;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 1px;
+	color:rgb(198,66,3);
 }
 
 h3 {
@@ -29,17 +37,27 @@ h4 {
 
 h5 {
 	font-size: 11px;
+
 }
 
 p{
 	padding:10px;
 	margin:0px;
 	width:500px;
+	font-family: 'Dosis', sans-serif;
 }
 
 img {
 	margin:0;
 	padding:0;
+}
+
+.bar {
+	color: white;
+	padding:0;
+	margin:0;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .bluepurplebp {
@@ -63,6 +81,19 @@ img {
 	box-shadow: 3px 3px rgb(92,0,162);
 }
 
+.button {
+	display: flex;
+	justify-content: flex-end;
+	border-radius: 5px;
+	box-shadow: 3px 3px rgb(129,163,255);
+    background: rgb(172,194,255);
+    color:rgb(0,68,255);
+	width:60px;
+	height:30px;
+	padding:3px;
+	margin-left:935px;
+    margin-top:-1210px;
+}
 
 .click {
 	display:none;
@@ -90,12 +121,13 @@ img {
 }
 
 .dialog {
-	width: 900px;
+	width: 950px;
 	margin-top:3px;
+	color:rgb(0,68,255);
 }
 
 .dialogue {
-	height:550;
+	height:700;
 	width:950;
 	display:flex;
 	align-items: center;
@@ -109,8 +141,8 @@ img {
 	border-radius:3px;
 	margin-bottom:3px;
 	margin-right:3px;
-	box-shadow: 3px 3px #BCBCBC;
-	background: #ccc;
+	box-shadow: 3px 3px rgb(255,189,55);
+	background: rgb(255,206,105);
 	display:flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -118,11 +150,14 @@ img {
 	align-items: center;
 }
 
+.exception {
+	background: rgb(255,186,46);
+}
+
 .flask, .click {
+	margin-top:-660px;
+	margin-left:200px;
 	position:absolute;
-	z-index: 1;
-	margin-top:-160px;
-	margin-left:30px;
 }
 
 .greenyellowgy{
@@ -152,15 +187,22 @@ img {
 	align-items: center
 }
 
+.menu {
+	display:flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
 .paragraph {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	margin-top:-650px;
+	margin-top:-550px;
 	margin-left:-140px;
+	color:rgb(198,66,3);
 }
 
-.period1, .period2, .period3, .period4, .period5, .period6, .period7, .period6ish, .period7ish, .os, .p {
+.period1, .period2, .period3, .period4, .period5, .period6, .period7, .period6ish, .period7ish {
 	display:flex;
 	justify-content: center;
 }
@@ -216,27 +258,87 @@ img {
 }
 /*empty spaces end*/
 
+/*Progress Bar Start*/
+.phantom7 {
+	width: 585px;
+	height:20px;
+	margin:5px 0px;
+	border-radius:20px;
+	box-shadow: inset 2px 2px rgb(255,189,55);
+	padding: 0px 3px;
+	display: flex;
+	justify-content: flex-end;	
+	}
+
+.ab {
+	background: linear-gradient(
+	to right, 
+		rgb(255,171,0) 0%, 
+		rgb(255,171,0) 7%, 
+		rgb(255,206,105) 7%, 
+		rgb(255,206,105) 100%
+	);
+}
+
+.bc {
+	background: linear-gradient(
+	to right, 
+		rgb(255,171,0) 0%, 
+		rgb(255,171,0) 20%, 
+		rgb(255,206,105) 20%, 
+		rgb(255,206,105) 100%
+	);
+}
+
+.cd {
+	background: linear-gradient(
+	to right, 
+		rgb(255,171,0) 0%, 
+		rgb(255,171,0) 37.5%, 
+		rgb(255,206,105) 37.5%, 
+		rgb(255,206,105) 100%
+	);
+}
+
+.de {
+	background: linear-gradient(
+	to right, 
+		rgb(255,171,0) 0%, 
+		rgb(255,171,0) 54.5%, 
+		rgb(255,206,105) 54.5%, 
+		rgb(255,206,105) 100%
+	);
+}
+
+.ef{
+	background: linear-gradient(
+	to right, 
+		rgb(255,171,0) 0%, 
+		rgb(255,171,0) 63%, 
+		rgb(255,206,105) 63%, 
+		rgb(255,206,105) 100%
+	);
+}
+
+.fg {
+	background: linear-gradient(
+	to right, 
+		rgb(255,171,0) 0%, 
+		rgb(255,171,0) 88.5%, 
+		rgb(255,206,105) 88.5%, 
+		rgb(255,206,105) 100%
+	);
+}
+
+.gh {
+	background: rgb(255,171,0);
+}
+/*Progress Bar End*/
+
 .property {
 	margin-top:100px;
 }
 
-@keyframes radio {
-	from {
-		background:'';
-	}
-	to {
-		background: rgb(111,255,0);
-	}
-}
-
-.radio {
-	animation-name: radio;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	position:static;
-	z-index: 10; 
-}
 
 @keyframes liquid {
 	0% {
@@ -262,11 +364,13 @@ img {
 		margin-top:"";
 		background:"";
 		color:"";
+		box-shadow: "";
 	}
 	to {
 		margin-top:-78px;
-		background:rgba(204,204,204,0.5);
-		color:rgba(0,0,0,0.5);
+		color:rgba(198,66,3,0.7);
+		box-shadow: 3px 3px rgba(255,189,55,0.7);
+		background: rgba(255,206,105,0.7);
 	}
 }
 
@@ -275,18 +379,52 @@ img {
 	animation-iteration-count: infinite;
 	animation-duration: 5s;
 	animation-direction: alternate;
+	position:relative;
+	z-index: 5;
 }
 
 #dialog {
 	border-radius: 5px;
-	box-shadow: 3px 3px #AAA;
-    background: #BCBCBC;
+	box-shadow: 3px 3px rgb(129,163,255);
+    background: rgb(172,194,255);
     display:none;
+    position:relative;
+    z-index: 10;
+    width:1000px;
+    height:570px;
+}
+
+#dialog1 {
+	border-radius: 5px;
+	box-shadow: 3px 3px rgb(129,163,255);
+    background: rgb(172,194,255);
+    display:none;
+    position:relative;
+    z-index: 10;
+    width:1000px;
+    height:700px;
 }
 
 #ion {
 	display:none;
 }
+
+#popup {
+	display:flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	margin-left:350px;
+	margin-top:-100px;
+}
+
+#popup1 {
+	display:flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	margin-left:350px;
+	margin-top:50px;
+}
+
 
 /*groups*/
 /*g1=alkali metals
