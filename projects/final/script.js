@@ -267,15 +267,21 @@ $(document).ready(function(){
 	});
 	$('h5').mouseenter(function() {
 		$(this).css('font-size','15px');
+		$('h5').css('color','rgba(198,66,3,0.5)');
+		$(this).css('color','rgb(198,66,3');
 	});
 	$('h5').mouseleave(function() {
 		$(this).css('font-size','');
+		$('h5').css('color','rgba(198,66,3,1)');
 	});
 	$('.special').mouseenter(function() {
 		$(this).css('font-size','15px');
+		$('h5').css('color','rgba(198,66,3,0.5)');
+		$(this).css('color','rgb(198,66,3');
 	});
 	$('.special').mouseleave(function() {
 		$(this).css('font-size','8px');
+		$('h5').css('color','rgba(198,66,3,1)');
 	});
 });
 
